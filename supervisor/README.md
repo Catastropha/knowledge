@@ -23,7 +23,7 @@ files = /etc/supervisor/conf.d/*.conf
 
 Changes that need to be done to run supervisor in docker
 
-1 - turn daemon off so it can run in docker as main process (for docker)
+1 - to run supervisor in docker you need to turn daemon off in supervisord.conf
 
 ```nodaemon=true```
 
