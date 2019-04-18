@@ -21,7 +21,7 @@ files = /etc/supervisor/conf.d/*.conf
 
 ### Docker
 
-Changes need to be done to run supervisor in docker
+Changes that need to be done to run supervisor in docker
 
 1 - turn daemon off so it can run in docker as main process (for docker)
 
