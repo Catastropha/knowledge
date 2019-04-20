@@ -30,3 +30,10 @@ Changes that need to be done to run supervisor in docker
 2 - change CMD in Dockerfile to:
 
 ```CMD ["/usr/bin/supervisord"]```
+
+### Celery worker
+
+Run celery worker with ```--pool=solo``` so that one worker takes one job and uses all host resources for processing
+
+```celery -A project worker --pool=solo```
+
